@@ -29,7 +29,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
-            return cache.addAll(URLS);
+            return cache.addAll(FILES_TO_CACHE);
         })
     );
 });
