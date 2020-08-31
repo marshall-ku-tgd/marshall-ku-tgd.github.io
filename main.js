@@ -62,3 +62,9 @@ document.getElementById("result").addEventListener("click", () => {
         empty(tmp);
     }
 });
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/service-worker.js");
+    });
+}
