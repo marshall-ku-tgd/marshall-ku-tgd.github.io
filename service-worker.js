@@ -1,6 +1,7 @@
-const CACHE_NAME = "static-cache-v1.0.1";
+const CACHE_NAME = "static-cache-v1.0.2";
 const FILES_TO_CACHE = [
     "/",
+    "/index.html",
     "/favicon.ico",
     "/main.js",
     "/style.css",
