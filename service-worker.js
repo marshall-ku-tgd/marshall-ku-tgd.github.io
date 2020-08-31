@@ -1,9 +1,10 @@
-const CACHE_NAME = "static-cache-v2.0.2";
+const CACHE_NAME = "static-cache-v1.0.0";
 const FILES_TO_CACHE = [
-    "/offline.html",
+    "/index.html",
     "/favicon.ico",
     "/main.js",
     "/style.css",
+    "/logo/logo-152.png",
 ];
 
 self.addEventListener("install", (event) => {
